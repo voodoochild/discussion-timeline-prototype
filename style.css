@@ -1,0 +1,67 @@
+* {
+    background-repeat: no-repeat;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font: normal 16px/1 "PT Serif";
+}
+
+a, a:visited {
+    color: blue;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+[role="banner"] {
+    background-color: #000;
+    color: #fff;
+    font-weight: normal;
+    line-height: 2;
+    margin: 0;
+    text-align: center;
+}
+
+.discussion {
+    margin: 50px auto;
+    width: 600px;
+}
+
+[data-comment-id] {
+    border-bottom: 1px dotted gray;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+[data-comment-id]:last-child {
+    border-bottom: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+[data-comment-id] p {
+    line-height: 1.4;
+}
+
+.avatar {
+    background-color: #ddd;
+    border: 1px solid #bbb;
+    display: inline-block;
+    height: 50px;
+    margin-right: 10px;
+    width: 50px;
+}
+
+.response-to {
+    background-image: url(response-to-icon.png);
+    border: 1px solid #bcbcbc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px gray;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 1.428571429;
+    margin-right: 5px;
+    padding: 0 4px 0 24px;
+}
